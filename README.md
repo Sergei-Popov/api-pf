@@ -1,6 +1,6 @@
 # API Документация
 
-# /api/auth/token-v2
+# /api/auth/token-v2 (Получить токен)
 
 ## POST:
 
@@ -22,7 +22,7 @@
 }
 ```
 
-# /api/tasks/create
+# /api/tasks/create (Создать задачу)
 
 ## Headers:
 
@@ -67,7 +67,7 @@
 }
 ```
 
-# /app/v1.0/api/subcategory/{subcatId}/states
+# /app/v1.0/api/subcategory/{subcatId}/states (Получить состояния категории)
 
 ## Headers:
 
