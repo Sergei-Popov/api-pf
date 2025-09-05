@@ -1,7 +1,7 @@
 # API Документация
 
-# /api/auth/token-v2 
-*Получить токен*
+# Получить токен
+*/api/auth/token-v2*
 
 ## POST:
 
@@ -23,8 +23,8 @@
 }
 ```
 
-# /api/tasks/create
-*Создать задачу*
+# Создать задачу
+*/api/tasks/create*
 
 ## Headers:
 
@@ -69,8 +69,8 @@
 }
 ```
 
-# /app/v1.0/api/subcategory/{subcatId}/states 
-*Получить состояния категории*
+# Получить состояния категории
+*/app/v1.0/api/subcategory/{subcatId}/states*
 
 ## Headers:
 
@@ -98,8 +98,8 @@ No body required.
 }
 ```
 
-# /api/admin/subcat/extparams 
-*Получить доп. параметры категории*
+# Получить доп. параметры категории
+*/api/admin/subcat/extparams*
 
 ## Headers:
 
