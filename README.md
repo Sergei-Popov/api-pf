@@ -2,7 +2,7 @@
 
 # /api/auth/token-v2
 
-### POST:
+## POST:
 ```
 {
 	"login": string,
@@ -10,7 +10,7 @@
 }
 ```
 
-### Response:
+## Response:
 ```
 {
     "data": {
@@ -22,12 +22,12 @@
 
 # /api/tasks/create
 
-### Headers:
+## Headers:
 ```
 1formaauth: <token>
 ```
 
-### POST:
+## POST:
 ```
 {
 	"subcatId": integer, # ID категории куда ставить задачу
@@ -50,7 +50,7 @@
 }
 ```
 
-### Response:
+## Response:
 ```
 {
 	"data": {
@@ -62,17 +62,17 @@
 }
 ```
 
-# /app/v1.0/api/subcategory/<subcatId>/states
+# /app/v1.0/api/subcategory/{subcatId}/states
 
-### Headers:
+## Headers:
 ```
 1formaauth: <token>
 ```
 
-### GET:
+## GET:
 No body required.
 
-### Response:
+## Response:
 ```
 {
   "data": [
@@ -87,17 +87,17 @@ No body required.
 }
 ```
 
-# /api/storage/subcategories/<subcatId>
+# /api/storage/subcategories/{subcatId}
 
-### Headers:
+## Headers:
 ```
 1formaauth: <token>
 ```
 
-### GET:
+## GET:
 No body required.
 
-### Response:
+## Response:
 
 ### Можно получить все ДП и их значения:
 ```
